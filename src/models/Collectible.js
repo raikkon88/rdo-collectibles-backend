@@ -33,7 +33,7 @@ CollectibleSchema.index({ createdAt: 1, updatedAt: 1 });
 export const Collectible = mongoose.model('Collectible', CollectibleSchema);
 export const CollectibleTC = composeWithMongoose(Collectible);
 
-CollectibleTC.addRelation('colectible', {
+CollectibleTC.addRelation('collection', {
     resolver: () => CollectionTC.getResolver('findById'),
     args: {
         _id: source => source.collectionId
