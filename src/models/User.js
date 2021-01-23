@@ -1,7 +1,9 @@
-import mongoose, { Schema } from 'mongoose'
+import mongoose, {Schema} from 'mongoose'
 import timestamps from 'mongoose-timestamp';
 import { composeWithMongoose } from 'graphql-compose-mongoose';
 import crypto from 'crypto'
+import collectibles from '../data/collectibles.json'
+import { Collection, CollectionTC } from './Collection'
 
 const MAX_SALT_LENGTH = 100
 const MIN_SALT_LENGTH = 50
@@ -31,8 +33,8 @@ export const UserSchema = new Schema(
     },
     active: {
       type: Boolean,
-      required: true
-    }
+      required: false
+    },
   },
   {
     collection: 'users'
@@ -44,6 +46,14 @@ UserSchema.index({ createdAt: 1, updatedAt: 1 });
 
 export const User = mongoose.model('User', UserSchema);
 export const UserTC = composeWithMongoose(User);
+
+UserTC.addRelation('cols', {
+  resolver: () => CollectionTC.getResolver('findById'),
+  prepareArgs: {
+    filter: source => ({userId: `${source._id}`})
+  },
+  projection: { _id: true }, 
+})
 
 UserTC.addResolver({
   name: 'register',
@@ -62,10 +72,33 @@ UserTC.addResolver({
       ...args.record,
       salt,
       password,
-      active:false
+      active:false,
+      cols: collectionIds
     }
-
+    // User creation
     let user = await User.create(userArguments);
+
+    // console.log(user)
+
+    // // Create Collection with userId.
+    // await collectibles.forEach(async collection => {
+    //   await Collection.create({userId: user._id, name: collection.name })
+    // })
+
+    // let collectionIds = []
+    // collectibles.forEach(async collection => { 
+    //   let collectiblesIds = []
+    //   collection.collectibles.forEach(async collectible => {
+    //     let collectibleId = await Collectible.create(collectible);
+    //     collectiblesIds.push(collectibleId);
+    //   })
+    //   let collectionId = await Collection.create({
+    //     name: collection.name,
+    //     collectibles: collectiblesIds
+    //   })
+    //   collectionIds.push(collectionId)
+    // })
+
 
     return {
       record: user, 
@@ -73,3 +106,5 @@ UserTC.addResolver({
     }
   } 
 })
+
+

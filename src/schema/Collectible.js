@@ -5,7 +5,8 @@ const CollectibleQuery = {
 }
 
 const CollectibleMutation = {
-  collectibleCreateOne: CollectibleTC.getResolver('createOne')
+  collectibleCreateOne: CollectibleTC.getResolver('createOne'),
+  collectibleCreateMany: CollectibleTC.getResolver('createMany')
 }
 
 export { CollectibleQuery, CollectibleMutation }

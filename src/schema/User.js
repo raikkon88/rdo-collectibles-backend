@@ -1,7 +1,8 @@
 import { UserTC } from '../models/User'
 
 const UserQuery = {
-  userById: UserTC.getResolver('findById')
+  userById: UserTC.getResolver('findById'),
+  userOne: UserTC.getResolver('findOne')
 }
 
 const UserMutation = {

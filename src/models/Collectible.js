@@ -1,11 +1,11 @@
 import mongoose, { Schema } from 'mongoose'
 import timestamps from 'mongoose-timestamps'
 import { composeWithMongoose } from 'graphql-compose-mongoose';
-
+import {CollectionTC} from './Collection'
 
 export const CollectibleSchema = new Schema(
   {
-      col: {
+      collectionId: {
           type: Schema.Types.ObjectId,
           ref: 'Collection',
           required: true,
@@ -32,3 +32,11 @@ CollectibleSchema.index({ createdAt: 1, updatedAt: 1 });
 
 export const Collectible = mongoose.model('Collectible', CollectibleSchema);
 export const CollectibleTC = composeWithMongoose(Collectible);
+
+CollectibleTC.addRelation('colectible', {
+    resolver: () => CollectionTC.getResolver('findById'),
+    args: {
+        _id: source => source.collectionId
+    },
+    projection: {collectionId: false}
+})
