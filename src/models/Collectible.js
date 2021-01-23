@@ -27,7 +27,6 @@ export const CollectibleSchema = new Schema(
 );
 
 CollectibleSchema.plugin(timestamps);
-
 CollectibleSchema.index({ createdAt: 1, updatedAt: 1 });
 
 export const Collectible = mongoose.model('Collectible', CollectibleSchema);
