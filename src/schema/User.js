@@ -1,11 +1,12 @@
-import { User, UserTC } from '../models/User'
+import { UserTC } from '../models/User'
 
 const UserQuery = {
   userById: UserTC.getResolver('findById')
 }
 
 const UserMutation = {
-  userCreateOne: UserTC.getResolver('createOne')
+  userCreateOne: UserTC.getResolver('createOne'),
+  register: UserTC.getResolver('register')
 }
 
 export { UserQuery, UserMutation }
