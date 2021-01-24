@@ -13,6 +13,7 @@ const connection = mongoose.connect(process.env.MONGODB_URI, {
     bufferMaxEntries: 0,
     keepAlive: 120,
     useNewUrlParser: true,
+    useFindAndModify: false,
 });
 
 mongoose.set('useCreateIndex', true);

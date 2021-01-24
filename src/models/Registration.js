@@ -1,6 +1,8 @@
 import { composeWithMongoose } from 'graphql-compose-mongoose'
 import mongoose, { Schema} from 'mongoose'
 import timestamps from 'mongoose-timestamps/lib/timestamps'
+import { User, UserTC } from './User'
+
 export const RegistrationSchema = new Schema(
   {
   userId: {
@@ -41,9 +43,13 @@ RegistrationTC.addResolver({
   args: RegistrationTC.getResolver('createOne').getArgs(),
   resolve: async ({ args }) => {
     
+    console.log(args.record)
+
     let registration = await Registration.findOneAndDelete({
       ...args.record,
     })
+
+    await User.findByIdAndUpdate(args.record.userId, { active: true })
 
     return {
       record: registration, 
