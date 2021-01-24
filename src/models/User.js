@@ -6,6 +6,7 @@ import collectibles from '../data/collectibles.json'
 import { Collection } from './Collection'
 import { Collectible } from './Collectible'
 import { Registration } from './Registration'
+import pick from 'lodash/pick'
 
 const MAX_SALT_LENGTH = 100
 const MIN_SALT_LENGTH = 50
@@ -84,7 +85,7 @@ UserTC.addResolver({
     await Registration.create({userId: user._id, hash: registrationHash})
 
     return {
-      record: user, 
+      record: pick(user, ["username", "email", "active"]), 
       recordId: user._id
     }
   } 

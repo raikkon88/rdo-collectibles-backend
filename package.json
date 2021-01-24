@@ -38,6 +38,7 @@
     "graphql-middleware": "^6.0.2",
     "graphql-tools": "^7.0.2",
     "jslint": "^0.12.1",
+    "lodash": "^4.17.20",
     "mongoose": "^5.11.13",
     "mongoose-bcrypt": "^1.9.0",
     "mongoose-timestamp": "^0.6.0",
