@@ -5,6 +5,7 @@ import crypto from 'crypto'
 import collectibles from '../data/collectibles.json'
 import { Collection } from './Collection'
 import { Collectible } from './Collectible'
+import { Registration } from './Registration'
 
 const MAX_SALT_LENGTH = 100
 const MIN_SALT_LENGTH = 50
@@ -55,7 +56,7 @@ UserTC.addResolver({
   type: UserTC.getResolver('createOne').getType(),
   args: UserTC.getResolver('createOne').getArgs(),
   resolve: async ({ args }) => {
-    
+
     // Random length from 50 to 100
     const randomLength = Math.floor(Math.random() * MAX_SALT_LENGTH) + MIN_SALT_LENGTH
     // Random salt for the password storage created from random length
@@ -73,12 +74,14 @@ UserTC.addResolver({
     let user = await User.create(userArguments);
 
     await collectibles.forEach(async collection => {
-      console.log(collection)
       let collectionId = await Collection.create({ userId: user._id, name: collection.name })
       await collection.collectibleList.forEach(async collectible => {
         Collectible.create({ collectionId: collectionId, name: collectible.name, count: collectible.count })
       })
     })
+
+    const registrationHash = crypto.randomBytes(randomLength).toString('hex')
+    await Registration.create({userId: user._id, hash: registrationHash})
 
     return {
       record: user, 
