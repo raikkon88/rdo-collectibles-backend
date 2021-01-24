@@ -23,7 +23,6 @@ export const CollectionSchema = new Schema(
 );
 
 CollectionSchema.plugin(timestamps);
-
 CollectionSchema.index({ createdAt: 1, updatedAt: 1 });
 
 export const Collection = mongoose.model('Collection', CollectionSchema);

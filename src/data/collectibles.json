@@ -4,7 +4,7 @@
         "collectibleList": [
             {
                 "name": "Fósil de Braquiópodo",
-                "count": 12
+                "count": 0
             },
             {
                 "name": "Fósil de bivalvo",
@@ -33,823 +33,808 @@
         ]
     },
     {
-        "acuaticFossils": {
-            "name": "Fósiles acuáticos",
-            "collectibleList": [
-                {
-                    "name": "Fósil de escorpión marino",
-                    "count": 0
-                },
-                {
-                    "name": "Fósil de trlobite criptolito",
-                    "count": 0
-                },
-                {
-                    "name": "Fósil de madera petrificada arcoíris",
-                    "count": 0
-                },
-                {
-                    "name": "Fósil de madera petrificada ojo de gato amarillo",
-                    "count": 0
-                },
-                {
-                    "name": "Fósil de lirio de mar",
-                    "count": 0
-                },
-                {
-                    "name": "Fósil de trilobite isotelus",
-                    "count": 0
-                },
-                {
-                    "name": "Fósil de monstruo de Tully",
-                    "count": 0
-                }
-            ]
-        }
+        
+        "name": "Fósiles acuáticos",
+        "collectibleList": [
+            {
+                "name": "Fósil de escorpión marino",
+                "count": 0
+            },
+            {
+                "name": "Fósil de trlobite criptolito",
+                "count": 0
+            },
+            {
+                "name": "Fósil de madera petrificada arcoíris",
+                "count": 0
+            },
+            {
+                "name": "Fósil de madera petrificada ojo de gato amarillo",
+                "count": 0
+            },
+            {
+                "name": "Fósil de lirio de mar",
+                "count": 0
+            },
+            {
+                "name": "Fósil de trilobite isotelus",
+                "count": 0
+            },
+            {
+                "name": "Fósil de monstruo de Tully",
+                "count": 0
+            }
+        ]
+        
     },
     {
-        "faunaFossils": {
-            "name": "Fósiles de faula colosal",
-            "collectibleList": [
-                {
-                    "name": "Fósil de espina de cola",
-                    "count": 0
-                },
-                {
-                    "name": "Fósil de cuerno nasal",
-                    "count": 0
-                },
-                {
-                    "name": "Fósil de garra retráctil",
-                    "count": 0
-                },
-                {
-                    "name": "Fósil de diente frontal",
-                    "count": 0
-                },
-                {
-                    "name": "Fósil de diente serrado",
-                    "count": 0
-                },
-                {
-                    "name": "Fósil de diente superior",
-                    "count": 0
-                }
-            ]
-        }
+    
+        "name": "Fósiles de faula colosal",
+        "collectibleList": [
+            {
+                "name": "Fósil de espina de cola",
+                "count": 0
+            },
+            {
+                "name": "Fósil de cuerno nasal",
+                "count": 0
+            },
+            {
+                "name": "Fósil de garra retráctil",
+                "count": 0
+            },
+            {
+                "name": "Fósil de diente frontal",
+                "count": 0
+            },
+            {
+                "name": "Fósil de diente serrado",
+                "count": 0
+            },
+            {
+                "name": "Fósil de diente superior",
+                "count": 0
+            }
+        ]
     },
     {
-        "silvesterFlowers": {
-            "name": "Flores silvestres americanas",
-            "collectibleList": [
-                {
-                    "name": "Flor de sangre",
-                    "count": 0
-                },
-                {
-                    "name": "Ciruela de arroyo",
-                    "count": 0
-                },
-                {
-                    "name": "Ruibarbo salvaje",
-                    "count": 0
-                },
-                {
-                    "name": "Glicinia",
-                    "count": 0
-                },
-                {
-                    "name": "Altramuz azul de Texas",
-                    "count": 0
-                },
-                {
-                    "name": "Agarita",
-                    "count": 0
-                },
-                {
-                    "name": "Margarita de cuatro nervios",
-                    "count": 0
-                },
-                {
-                    "name": "Flor del cardenal",
-                    "count": 0
-                },
-                {
-                    "name": "Margarita de chocolate",
-                    "count": 0
-                }
-            ]
-        }
+        "name": "Flores silvestres americanas",
+        "collectibleList": [
+            {
+                "name": "Flor de sangre",
+                "count": 0
+            },
+            {
+                "name": "Ciruela de arroyo",
+                "count": 0
+            },
+            {
+                "name": "Ruibarbo salvaje",
+                "count": 0
+            },
+            {
+                "name": "Glicinia",
+                "count": 0
+            },
+            {
+                "name": "Altramuz azul de Texas",
+                "count": 0
+            },
+            {
+                "name": "Agarita",
+                "count": 0
+            },
+            {
+                "name": "Margarita de cuatro nervios",
+                "count": 0
+            },
+            {
+                "name": "Flor del cardenal",
+                "count": 0
+            },
+            {
+                "name": "Margarita de chocolate",
+                "count": 0
+            }
+        ]
+        
     },
     {
-        "tarotCopas": {
-            "name": "Palo de copas (cartas del tarot)",
-            "collectibleList": [
-                {
-                    "name": "As de Copas",
-                    "count": 0
-                },
-                {
-                    "name": "Dos de Copas",
-                    "count": 0
-                },
-                {
-                    "name": "Tres de Copas",
-                    "count": 0
-                },
-                {
-                    "name": "Quatro de Copas",
-                    "count": 0
-                },
-                {
-                    "name": "Cinco de Copas",
-                    "count": 0
-                },
-                {
-                    "name": "Seis de Copas",
-                    "count": 0
-                },
-                {
-                    "name": "Siete de Copas",
-                    "count": 0
-                },
-                {
-                    "name": "Ocho de Copas",
-                    "count": 0
-                },
-                {
-                    "name": "Nueve de Copas",
-                    "count": 0
-                },
-                {
-                    "name": "Diez de Copas",
-                    "count": 0
-                },
-                {
-                    "name": "Sota de Copas",
-                    "count": 0
-                },
-                {
-                    "name": "Caballo de Copas",
-                    "count": 0
-                },
-                {
-                    "name": "Reina de Copas",
-                    "count": 0
-                },
-                {
-                    "name": "Rei de Copas",
-                    "count": 0
-                }
-            ]
-        }
+    
+        "name": "Palo de copas (cartas del tarot)",
+        "collectibleList": [
+            {
+                "name": "As de Copas",
+                "count": 0
+            },
+            {
+                "name": "Dos de Copas",
+                "count": 0
+            },
+            {
+                "name": "Tres de Copas",
+                "count": 0
+            },
+            {
+                "name": "Quatro de Copas",
+                "count": 0
+            },
+            {
+                "name": "Cinco de Copas",
+                "count": 0
+            },
+            {
+                "name": "Seis de Copas",
+                "count": 0
+            },
+            {
+                "name": "Siete de Copas",
+                "count": 0
+            },
+            {
+                "name": "Ocho de Copas",
+                "count": 0
+            },
+            {
+                "name": "Nueve de Copas",
+                "count": 0
+            },
+            {
+                "name": "Diez de Copas",
+                "count": 0
+            },
+            {
+                "name": "Sota de Copas",
+                "count": 0
+            },
+            {
+                "name": "Caballo de Copas",
+                "count": 0
+            },
+            {
+                "name": "Reina de Copas",
+                "count": 0
+            },
+            {
+                "name": "Rei de Copas",
+                "count": 0
+            }
+        ]
+        
     },
     {
-        "tarotEspadas": {
-            "name": "Palo de espadas (cartas del tarot)",
-            "collectibleList": [
-                {
-                    "name": "As de Espadas",
-                    "count": 0
-                },
-                {
-                    "name": "Dos de Espadas",
-                    "count": 0
-                },
-                {
-                    "name": "Tres de Espadas",
-                    "count": 0
-                },
-                {
-                    "name": "Quatro de Espadas",
-                    "count": 0
-                },
-                {
-                    "name": "Cinco de Espadas",
-                    "count": 0
-                },
-                {
-                    "name": "Seis de Espadas",
-                    "count": 0
-                },
-                {
-                    "name": "Siete de Espadas",
-                    "count": 0
-                },
-                {
-                    "name": "Ocho de Espadas",
-                    "count": 0
-                },
-                {
-                    "name": "Nueve de Espadas",
-                    "count": 0
-                },
-                {
-                    "name": "Diez de Espadas",
-                    "count": 0
-                },
-                {
-                    "name": "Sota de Espadas",
-                    "count": 0
-                },
-                {
-                    "name": "Caballo de Espadas",
-                    "count": 0
-                },
-                {
-                    "name": "Reina de Espadas",
-                    "count": 0
-                },
-                {
-                    "name": "Rei de Espadas",
-                    "count": 0
-                }
-            ]
-        }
+       
+        "name": "Palo de espadas (cartas del tarot)",
+        "collectibleList": [
+            {
+                "name": "As de Espadas",
+                "count": 0
+            },
+            {
+                "name": "Dos de Espadas",
+                "count": 0
+            },
+            {
+                "name": "Tres de Espadas",
+                "count": 0
+            },
+            {
+                "name": "Quatro de Espadas",
+                "count": 0
+            },
+            {
+                "name": "Cinco de Espadas",
+                "count": 0
+            },
+            {
+                "name": "Seis de Espadas",
+                "count": 0
+            },
+            {
+                "name": "Siete de Espadas",
+                "count": 0
+            },
+            {
+                "name": "Ocho de Espadas",
+                "count": 0
+            },
+            {
+                "name": "Nueve de Espadas",
+                "count": 0
+            },
+            {
+                "name": "Diez de Espadas",
+                "count": 0
+            },
+            {
+                "name": "Sota de Espadas",
+                "count": 0
+            },
+            {
+                "name": "Caballo de Espadas",
+                "count": 0
+            },
+            {
+                "name": "Reina de Espadas",
+                "count": 0
+            },
+            {
+                "name": "Rei de Espadas",
+                "count": 0
+            }
+        ]
     },
     {
-        "tarotBastos": {
-            "name": "Palo de bastos (cartas del tarot)",
-            "collectibleList": [
-                {
-                    "name": "As de Bastos",
-                    "count": 0
-                },
-                {
-                    "name": "Dos de Bastos",
-                    "count": 0
-                },
-                {
-                    "name": "Tres de Bastos",
-                    "count": 0
-                },
-                {
-                    "name": "Quatro de Bastos",
-                    "count": 0
-                },
-                {
-                    "name": "Cinco de Bastos",
-                    "count": 0
-                },
-                {
-                    "name": "Seis de Bastos",
-                    "count": 0
-                },
-                {
-                    "name": "Siete de Bastos",
-                    "count": 0
-                },
-                {
-                    "name": "Ocho de Bastos",
-                    "count": 0
-                },
-                {
-                    "name": "Nueve de Bastos",
-                    "count": 0
-                },
-                {
-                    "name": "Diez de Bastos",
-                    "count": 0
-                },
-                {
-                    "name": "Sota de Bastos",
-                    "count": 0
-                },
-                {
-                    "name": "Caballo de Bastos",
-                    "count": 0
-                },
-                {
-                    "name": "Reina de Bastos",
-                    "count": 0
-                },
-                {
-                    "name": "Rei de Bastos",
-                    "count": 0
-                }
-            ]
-        }
+        "name": "Palo de bastos (cartas del tarot)",
+        "collectibleList": [
+            {
+                "name": "As de Bastos",
+                "count": 0
+            },
+            {
+                "name": "Dos de Bastos",
+                "count": 0
+            },
+            {
+                "name": "Tres de Bastos",
+                "count": 0
+            },
+            {
+                "name": "Quatro de Bastos",
+                "count": 0
+            },
+            {
+                "name": "Cinco de Bastos",
+                "count": 0
+            },
+            {
+                "name": "Seis de Bastos",
+                "count": 0
+            },
+            {
+                "name": "Siete de Bastos",
+                "count": 0
+            },
+            {
+                "name": "Ocho de Bastos",
+                "count": 0
+            },
+            {
+                "name": "Nueve de Bastos",
+                "count": 0
+            },
+            {
+                "name": "Diez de Bastos",
+                "count": 0
+            },
+            {
+                "name": "Sota de Bastos",
+                "count": 0
+            },
+            {
+                "name": "Caballo de Bastos",
+                "count": 0
+            },
+            {
+                "name": "Reina de Bastos",
+                "count": 0
+            },
+            {
+                "name": "Rei de Bastos",
+                "count": 0
+            }
+        ]
+        
     },
     {
-        "tarotOros": {
-            "name": "Palo de oros (cartas del tarot)",
-            "collectibleList": [
-                {
-                    "name": "As de Oros",
-                    "count": 0
-                },
-                {
-                    "name": "Dos de Oros",
-                    "count": 0
-                },
-                {
-                    "name": "Tres de Oros",
-                    "count": 0
-                },
-                {
-                    "name": "Quatro de Oros",
-                    "count": 0
-                },
-                {
-                    "name": "Cinco de Oros",
-                    "count": 0
-                },
-                {
-                    "name": "Seis de Oros",
-                    "count": 0
-                },
-                {
-                    "name": "Siete de Oros",
-                    "count": 0
-                },
-                {
-                    "name": "Ocho de Oros",
-                    "count": 0
-                },
-                {
-                    "name": "Nueve de Oros",
-                    "count": 0
-                },
-                {
-                    "name": "Diez de Oros",
-                    "count": 0
-                },
-                {
-                    "name": "Sota de Oros",
-                    "count": 0
-                },
-                {
-                    "name": "Caballo de Oros",
-                    "count": 0
-                },
-                {
-                    "name": "Reina de Oros",
-                    "count": 0
-                },
-                {
-                    "name": "Rei de Oros",
-                    "count": 0
-                }
-            ]
-        }
+        "name": "Palo de oros (cartas del tarot)",
+        "collectibleList": [
+            {
+                "name": "As de Oros",
+                "count": 0
+            },
+            {
+                "name": "Dos de Oros",
+                "count": 0
+            },
+            {
+                "name": "Tres de Oros",
+                "count": 0
+            },
+            {
+                "name": "Quatro de Oros",
+                "count": 0
+            },
+            {
+                "name": "Cinco de Oros",
+                "count": 0
+            },
+            {
+                "name": "Seis de Oros",
+                "count": 0
+            },
+            {
+                "name": "Siete de Oros",
+                "count": 0
+            },
+            {
+                "name": "Ocho de Oros",
+                "count": 0
+            },
+            {
+                "name": "Nueve de Oros",
+                "count": 0
+            },
+            {
+                "name": "Diez de Oros",
+                "count": 0
+            },
+            {
+                "name": "Sota de Oros",
+                "count": 0
+            },
+            {
+                "name": "Caballo de Oros",
+                "count": 0
+            },
+            {
+                "name": "Reina de Oros",
+                "count": 0
+            },
+            {
+                "name": "Rei de Oros",
+                "count": 0
+            }
+        ]
+        
     },
     {
-        "collares": {
-            "name": "Collares perdidos",
-            "collectibleList": [
-                {
-                    "name": "Collar con amatistas Braxton",
-                    "count": 0
-                },
-                {
-                    "name": "Collar con cruz Ainsworth",
-                    "count": 0
-                },
-                {
-                    "name": "Collar con perlas Rou",
-                    "count": 0
-                },
-                {
-                    "name": "Collar de perlas Pellé",
-                    "count": 0
-                },
-                {
-                    "name": "Collar de perlas Tuamotu",
-                    "count": 0
-                },
-                {
-                    "name": "Collar de oro blanco Gosselin",
-                    "count": 0
-                },
-                {
-                    "name": "Collar con amatista Richelieu",
-                    "count": 0
-                },
-                {
-                    "name": "Collar con miniatura Blakely",
-                    "count": 0
-                },
-                {
-                    "name": "Collar con topacio Danés",
-                    "count": 0
-                }
-            ]
-        }
+        "name": "Collares perdidos",
+        "collectibleList": [
+            {
+                "name": "Collar con amatistas Braxton",
+                "count": 0
+            },
+            {
+                "name": "Collar con cruz Ainsworth",
+                "count": 0
+            },
+            {
+                "name": "Collar con perlas Rou",
+                "count": 0
+            },
+            {
+                "name": "Collar de perlas Pellé",
+                "count": 0
+            },
+            {
+                "name": "Collar de perlas Tuamotu",
+                "count": 0
+            },
+            {
+                "name": "Collar de oro blanco Gosselin",
+                "count": 0
+            },
+            {
+                "name": "Collar con amatista Richelieu",
+                "count": 0
+            },
+            {
+                "name": "Collar con miniatura Blakely",
+                "count": 0
+            },
+            {
+                "name": "Collar con topacio Danés",
+                "count": 0
+            }
+        ]
+        
     },
     {
-        "pulseras": {
-            "name": "Pulseras perdidas",
-            "collectibleList": [
-                {
-                    "name": "Pulsera con zafiros Greco",
-                    "count": 0
-                },
-                {
-                    "name": "Pulsera con zafiros Helena",
-                    "count": 0
-                },
-                {
-                    "name": "Pulsera con turquesa Infanta",
-                    "count": 0
-                },
-                {
-                    "name": "Pulsera con granates Hajnal",
-                    "count": 0
-                },
-                {
-                    "name": "Pulsera grabada Elliston",
-                    "count": 0
-                },
-                {
-                    "name": "Pulsera de oro rosa Ojeda",
-                    "count": 0
-                },
-                {
-                    "name": "Pulsera con rubíes Abelló",
-                    "count": 0
-                },
-                {
-                    "name": "Pulsera de perlas Durant",
-                    "count": 0
-                }
-            ]
-        }
+        "name": "Pulseras perdidas",
+        "collectibleList": [
+            {
+                "name": "Pulsera con zafiros Greco",
+                "count": 0
+            },
+            {
+                "name": "Pulsera con zafiros Helena",
+                "count": 0
+            },
+            {
+                "name": "Pulsera con turquesa Infanta",
+                "count": 0
+            },
+            {
+                "name": "Pulsera con granates Hajnal",
+                "count": 0
+            },
+            {
+                "name": "Pulsera grabada Elliston",
+                "count": 0
+            },
+            {
+                "name": "Pulsera de oro rosa Ojeda",
+                "count": 0
+            },
+            {
+                "name": "Pulsera con rubíes Abelló",
+                "count": 0
+            },
+            {
+                "name": "Pulsera de perlas Durant",
+                "count": 0
+            }
+        ]
     },
     {
-        "pendientes": {
-            "name": "Pendientes perdidos",
-            "collectibleList": [
-                {
-                    "name": "Pendientes de rubíes Beauchêne",
-                    "count": 0
-                },
-                {
-                    "name": "Pendientes de turquesa Calumet",
-                    "count": 0
-                },
-                {
-                    "name": "Pendientes de citrino Úrsula",
-                    "count": 0
-                },
-                {
-                    "name": "Pendientes de perlas Josephine",
-                    "count": 0
-                },
-                {
-                    "name": "Pendientes de diamante Reina Victoria",
-                    "count": 0
-                },
-                {
-                    "name": "Pendientes de coral Emmeline",
-                    "count": 0
-                },
-                {
-                    "name": "Pendientes de diamantes Orchidée",
-                    "count": 0
-                },
-                {
-                    "name": "Pendientes de diamante Endicott",
-                    "count": 0
-                },
-                {
-                    "name": "Pendientes de diente Sterling",
-                    "count": 0
-                },
-                {
-                    "name": "Pendientes de esmeralda Duquesa",
-                    "count": 0
-                },
-                {
-                    "name": "Pendientes de granate Harford",
-                    "count": 0
-                }
-            ]
-        }
+    "name": "Pendientes perdidos",
+        "collectibleList": [
+            {
+                "name": "Pendientes de rubíes Beauchêne",
+                "count": 0
+            },
+            {
+                "name": "Pendientes de turquesa Calumet",
+                "count": 0
+            },
+            {
+                "name": "Pendientes de citrino Úrsula",
+                "count": 0
+            },
+            {
+                "name": "Pendientes de perlas Josephine",
+                "count": 0
+            },
+            {
+                "name": "Pendientes de diamante Reina Victoria",
+                "count": 0
+            },
+            {
+                "name": "Pendientes de coral Emmeline",
+                "count": 0
+            },
+            {
+                "name": "Pendientes de diamantes Orchidée",
+                "count": 0
+            },
+            {
+                "name": "Pendientes de diamante Endicott",
+                "count": 0
+            },
+            {
+                "name": "Pendientes de diente Sterling",
+                "count": 0
+            },
+            {
+                "name": "Pendientes de esmeralda Duquesa",
+                "count": 0
+            },
+            {
+                "name": "Pendientes de granate Harford",
+                "count": 0
+            }
+        ]
+        
     },
     {
-        "anillos": {
-            "name": "Anillos perdidos",
-            "collectibleList": [
-                {
-                    "name": "Anillo con piedra lunar Peregrino",
-                    "count": 0
-                },
-                {
-                    "name": "Anillo de coral Harland",
-                    "count": 0
-                },
-                {
-                    "name": "Anillo con diamantes Yates",
-                    "count": 0
-                },
-                {
-                    "name": "Anillo de turquesa Thorburn",
-                    "count": 0
-                },
-                {
-                    "name": "Anillo con diamantes Sackville",
-                    "count": 0
-                },
-                {
-                    "name": "Anillo con perla Bonnard",
-                    "count": 0
-                },
-                {
-                    "name": "Anillo de ónix Aubrey",
-                    "count": 0
-                },
-                {
-                    "name": "Anillo con esmeralda Bosque",
-                    "count": 0
-                },
-                {
-                    "name": "Anillo de turquesa Magnate",
-                    "count": 0
-                },
-                {
-                    "name": "Anillo con topacio Banais",
-                    "count": 0
-                },
-                {
-                    "name": "Anillo con diamantes Beaulieux",
-                    "count": 0
-                }
-            ]
-        }
+        "name": "Anillos perdidos",
+        "collectibleList": [
+            {
+                "name": "Anillo con piedra lunar Peregrino",
+                "count": 0
+            },
+            {
+                "name": "Anillo de coral Harland",
+                "count": 0
+            },
+            {
+                "name": "Anillo con diamantes Yates",
+                "count": 0
+            },
+            {
+                "name": "Anillo de turquesa Thorburn",
+                "count": 0
+            },
+            {
+                "name": "Anillo con diamantes Sackville",
+                "count": 0
+            },
+            {
+                "name": "Anillo con perla Bonnard",
+                "count": 0
+            },
+            {
+                "name": "Anillo de ónix Aubrey",
+                "count": 0
+            },
+            {
+                "name": "Anillo con esmeralda Bosque",
+                "count": 0
+            },
+            {
+                "name": "Anillo de turquesa Magnate",
+                "count": 0
+            },
+            {
+                "name": "Anillo con topacio Banais",
+                "count": 0
+            },
+            {
+                "name": "Anillo con diamantes Beaulieux",
+                "count": 0
+            }
+        ]
+        
     },
     {
-        "botellas": {
-            "name": "Botellas de alcohol antiguas",
-            "collectibleList": [
-                {
-                    "name": "Ron caribeño",
-                    "count": 0
-                },
-                {
-                    "name": "Ginebra Old Tom",
-                    "count": 0
-                },
-                {
-                    "name": "Absenta",
-                    "count": 0
-                },
-                {
-                    "name": "Ginebra seca de Londres",
-                    "count": 0
-                },
-                {
-                    "name": "Whisky irlandés",
-                    "count": 0
-                },
-                {
-                    "name": "Madeira Gran Corazón",
-                    "count": 0
-                },
-                {
-                    "name": "Coñac",
-                    "count": 0
-                },
-                {
-                    "name": "Whisky escocés",
-                    "count": 0
-                },
-                {
-                    "name": "Whisky de Tennessee",
-                    "count": 0
-                }
-            ]
-        }
+        "name": "Botellas de alcohol antiguas",
+        "collectibleList": [
+            {
+                "name": "Ron caribeño",
+                "count": 0
+            },
+            {
+                "name": "Ginebra Old Tom",
+                "count": 0
+            },
+            {
+                "name": "Absenta",
+                "count": 0
+            },
+            {
+                "name": "Ginebra seca de Londres",
+                "count": 0
+            },
+            {
+                "name": "Whisky irlandés",
+                "count": 0
+            },
+            {
+                "name": "Madeira Gran Corazón",
+                "count": 0
+            },
+            {
+                "name": "Coñac",
+                "count": 0
+            },
+            {
+                "name": "Whisky escocés",
+                "count": 0
+            },
+            {
+                "name": "Whisky de Tennessee",
+                "count": 0
+            }
+        ]
+        
     },
     {
-        "huevos": {
-            "name": "Huevos de aves",
-            "collectibleList": [
-                {
-                    "name": "Huevo de buitre",
-                    "count": 0
-                },
-                {
-                    "name": "Huevo de águila",
-                    "count": 0
-                },
-                {
-                    "name": "Huevo de ganso",
-                    "count": 0
-                },
-                {
-                    "name": "Huevo de garza",
-                    "count": 0
-                },
-                {
-                    "name": "Huevo de espátula",
-                    "count": 0
-                },
-                {
-                    "name": "Huevo de garceta",
-                    "count": 0
-                },
-                {
-                    "name": "Huevo de somormujo",
-                    "count": 0
-                },
-                {
-                    "name": "Huevo de pato",
-                    "count": 0
-                },
-                {
-                    "name": "Huevo de halcón",
-                    "count": 0
-                }
-            ]
-        }
+        "name": "Huevos de aves",
+        "collectibleList": [
+            {
+                "name": "Huevo de buitre",
+                "count": 0
+            },
+            {
+                "name": "Huevo de águila",
+                "count": 0
+            },
+            {
+                "name": "Huevo de ganso",
+                "count": 0
+            },
+            {
+                "name": "Huevo de garza",
+                "count": 0
+            },
+            {
+                "name": "Huevo de espátula",
+                "count": 0
+            },
+            {
+                "name": "Huevo de garceta",
+                "count": 0
+            },
+            {
+                "name": "Huevo de somormujo",
+                "count": 0
+            },
+            {
+                "name": "Huevo de pato",
+                "count": 0
+            },
+            {
+                "name": "Huevo de halcón",
+                "count": 0
+            }
+        ]
+        
     },
     {
-        "puntas": {
-            "name": "Puntas de flecha",
-            "collectibleList": [
-                {
-                    "name": "Punta de flecha de feldespato",
-                    "count": 0
-                },
-                {
-                    "name": "Punta de flecha de obsidiana",
-                    "count": 0
-                },
-                {
-                    "name": "Punta de flecha astillada",
-                    "count": 0
-                },
-                {
-                    "name": "Punta de flecha dura",
-                    "count": 0
-                },
-                {
-                    "name": "Punta de flecha de pizarra",
-                    "count": 0
-                },
-                {
-                    "name": "Punta de flecha de hueso",
-                    "count": 0
-                },
-                {
-                    "name": "Punta de flecha rota",
-                    "count": 0
-                },
-                {
-                    "name": "Punta de flecha de ágata",
-                    "count": 0
-                },
-                {
-                    "name": "Punta de flecha roma",
-                    "count": 0
-                },
-                {
-                    "name": "Punta de flecha de pedernal",
-                    "count": 0
-                },
-                {
-                    "name": "Punta de flecha de cuarzo",
-                    "count": 0
-                },
-                {
-                    "name": "Punta de flecha áspera",
-                    "count": 0
-                }
-            ]
-        }
+        "name": "Puntas de flecha",
+        "collectibleList": [
+            {
+                "name": "Punta de flecha de feldespato",
+                "count": 0
+            },
+            {
+                "name": "Punta de flecha de obsidiana",
+                "count": 0
+            },
+            {
+                "name": "Punta de flecha astillada",
+                "count": 0
+            },
+            {
+                "name": "Punta de flecha dura",
+                "count": 0
+            },
+            {
+                "name": "Punta de flecha de pizarra",
+                "count": 0
+            },
+            {
+                "name": "Punta de flecha de hueso",
+                "count": 0
+            },
+            {
+                "name": "Punta de flecha rota",
+                "count": 0
+            },
+            {
+                "name": "Punta de flecha de ágata",
+                "count": 0
+            },
+            {
+                "name": "Punta de flecha roma",
+                "count": 0
+            },
+            {
+                "name": "Punta de flecha de pedernal",
+                "count": 0
+            },
+            {
+                "name": "Punta de flecha de cuarzo",
+                "count": 0
+            },
+            {
+                "name": "Punta de flecha áspera",
+                "count": 0
+            }
+        ]
+        
     },
     {
-        "reliquias": {
-            "name": "Reliquias familiares",
-            "collectibleList": [
-                {
-                    "name": "Cepillo de pelo de cabra",
-                    "count": 0
-                },
-                {
-                    "name": "Cepillo de palisandro",
-                    "count": 0
-                },
-                {
-                    "name": "Cepillo de ébano",
-                    "count": 0
-                },
-                {
-                    "name": "Cepillo de crin de caballo",
-                    "count": 0
-                },
-                {
-                    "name": "Peine de cerezo",
-                    "count": 0
-                },
-                {
-                    "name": "Peine de marfil",
-                    "count": 0
-                },
-                {
-                    "name": "Horquilla de jade",
-                    "count": 0
-                },
-                {
-                    "name": "Cepillo de cerdas de jabalí",
-                    "count": 0
-                },
-                {
-                    "name": "Peine de carey",
-                    "count": 0
-                },
-                {
-                    "name": "Horquilla de metal",
-                    "count": 0
-                },
-                {
-                    "name": "Cepillo de palisandro de Nueva Guinea",
-                    "count": 0
-                },
-                {
-                    "name": "Peine de boj",
-                    "count": 0
-                },
-                {
-                    "name": "Horquilla de marfil",
-                    "count": 0
-                },
-                {
-                    "name": "Horquilla de ébano",
-                    "count": 0
-                },
-                {
-                    "name": "Horquilla de madera tallada",
-                    "count": 0
-                }
-            ]
-        }
+        "name": "Reliquias familiares",
+        "collectibleList": [
+            {
+                "name": "Cepillo de pelo de cabra",
+                "count": 0
+            },
+            {
+                "name": "Cepillo de palisandro",
+                "count": 0
+            },
+            {
+                "name": "Cepillo de ébano",
+                "count": 0
+            },
+            {
+                "name": "Cepillo de crin de caballo",
+                "count": 0
+            },
+            {
+                "name": "Peine de cerezo",
+                "count": 0
+            },
+            {
+                "name": "Peine de marfil",
+                "count": 0
+            },
+            {
+                "name": "Horquilla de jade",
+                "count": 0
+            },
+            {
+                "name": "Cepillo de cerdas de jabalí",
+                "count": 0
+            },
+            {
+                "name": "Peine de carey",
+                "count": 0
+            },
+            {
+                "name": "Horquilla de metal",
+                "count": 0
+            },
+            {
+                "name": "Cepillo de palisandro de Nueva Guinea",
+                "count": 0
+            },
+            {
+                "name": "Peine de boj",
+                "count": 0
+            },
+            {
+                "name": "Horquilla de marfil",
+                "count": 0
+            },
+            {
+                "name": "Horquilla de ébano",
+                "count": 0
+            },
+            {
+                "name": "Horquilla de madera tallada",
+                "count": 0
+            }
+        ]
+        
     },
     {
-        "monedas": {
-            "name": "Monedas",
-            "collectibleList": [
-                {
-                    "name": "25 centavos de 1792",
-                    "count": 0
-                },
-                {
-                    "name": "Un centavo de 1787",
-                    "count": 0
-                },
-                {
-                    "name": "Media águila de 1795",
-                    "count": 0
-                },
-                {
-                    "name": "Medio penique de 1796",
-                    "count": 0
-                },
-                {
-                    "name": "5 centavos de 1792",
-                    "count": 0
-                },
-                {
-                    "name": "25 centavos Liberty de 1792",
-                    "count": 0
-                },
-                {
-                    "name": "25 centavos de oro de 1800",
-                    "count": 0
-                },
-                {
-                    "name": "5 centavos de 1800",
-                    "count": 0
-                },
-                {
-                    "name": "Dólar de plata con busto drapeado de 1798",
-                    "count": 0
-                },
-                {
-                    "name": "Penique de 1789",
-                    "count": 0
-                },
-                {
-                    "name": "Dólar de plata de 1794",
-                    "count": 0
-                },
-                {
-                    "name": "Moneda de Nueva York de 1700",
-                    "count": 0
-                },
-                {
-                    "name": "Águila de oro de 1797",
-                    "count": 0
-                },
-                {
-                    "name": "5 dólares Bechtler de 1800",
-                    "count": 0
-                },
-                {
-                    "name": "Dólar de oro de 1800",
-                    "count": 0
-                }
-            ]
-        }
+        "name": "Monedas",
+        "collectibleList": [
+            {
+                "name": "25 centavos de 1792",
+                "count": 0
+            },
+            {
+                "name": "Un centavo de 1787",
+                "count": 0
+            },
+            {
+                "name": "Media águila de 1795",
+                "count": 0
+            },
+            {
+                "name": "Medio penique de 1796",
+                "count": 0
+            },
+            {
+                "name": "5 centavos de 1792",
+                "count": 0
+            },
+            {
+                "name": "25 centavos Liberty de 1792",
+                "count": 0
+            },
+            {
+                "name": "25 centavos de oro de 1800",
+                "count": 0
+            },
+            {
+                "name": "5 centavos de 1800",
+                "count": 0
+            },
+            {
+                "name": "Dólar de plata con busto drapeado de 1798",
+                "count": 0
+            },
+            {
+                "name": "Penique de 1789",
+                "count": 0
+            },
+            {
+                "name": "Dólar de plata de 1794",
+                "count": 0
+            },
+            {
+                "name": "Moneda de Nueva York de 1700",
+                "count": 0
+            },
+            {
+                "name": "Águila de oro de 1797",
+                "count": 0
+            },
+            {
+                "name": "5 dólares Bechtler de 1800",
+                "count": 0
+            },
+            {
+                "name": "Dólar de oro de 1800",
+                "count": 0
+            }
+        ]
+        
     }
 ]

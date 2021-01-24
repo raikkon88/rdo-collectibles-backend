@@ -1,7 +1,8 @@
 import { Collectible, CollectibleTC } from '../models/Collectible'
 
 const CollectibleQuery = {
-  collectibleById: CollectibleTC.getResolver('findById')
+  collectibleById: CollectibleTC.getResolver('findById'),
+  collectibleOne: CollectibleTC.getResolver('findOne')
 }
 
 const CollectibleMutation = {

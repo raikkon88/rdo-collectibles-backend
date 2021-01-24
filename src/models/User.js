@@ -1,7 +1,10 @@
-import mongoose, {Schema} from 'mongoose'
+import mongoose, { Schema} from 'mongoose'
 import timestamps from 'mongoose-timestamp';
 import { composeWithMongoose } from 'graphql-compose-mongoose';
 import crypto from 'crypto'
+import collectibles from '../data/collectibles.json'
+import { Collection } from './Collection'
+import { Collectible } from './Collectible'
 
 const MAX_SALT_LENGTH = 100
 const MIN_SALT_LENGTH = 50
@@ -52,6 +55,7 @@ UserTC.addResolver({
   type: UserTC.getResolver('createOne').getType(),
   args: UserTC.getResolver('createOne').getArgs(),
   resolve: async ({ args }) => {
+    
     // Random length from 50 to 100
     const randomLength = Math.floor(Math.random() * MAX_SALT_LENGTH) + MIN_SALT_LENGTH
     // Random salt for the password storage created from random length
@@ -65,29 +69,16 @@ UserTC.addResolver({
       password,
       active:false,
     }
-    // User creation
+
     let user = await User.create(userArguments);
-    // console.log(user)
 
-    // // Create Collection with userId.
-    // await collectibles.forEach(async collection => {
-    //   await Collection.create({userId: user._id, name: collection.name })
-    // })
-
-    // let collectionIds = []
-    // collectibles.forEach(async collection => { 
-    //   let collectiblesIds = []
-    //   collection.collectibles.forEach(async collectible => {
-    //     let collectibleId = await Collectible.create(collectible);
-    //     collectiblesIds.push(collectibleId);
-    //   })
-    //   let collectionId = await Collection.create({
-    //     name: collection.name,
-    //     collectibles: collectiblesIds
-    //   })
-    //   collectionIds.push(collectionId)
-    // })
-
+    await collectibles.forEach(async collection => {
+      console.log(collection)
+      let collectionId = await Collection.create({ userId: user._id, name: collection.name })
+      await collection.collectibleList.forEach(async collectible => {
+        Collectible.create({ collectionId: collectionId, name: collectible.name, count: collectible.count })
+      })
+    })
 
     return {
       record: user, 
