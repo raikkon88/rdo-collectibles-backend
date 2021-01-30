@@ -1,0 +1,10 @@
+mutation {
+  register(record: {username:"saaaaa", email: "sssssadddfas@gmaila.com", password:"vaiavaia"}){
+    record {
+      username,
+      email,
+      active
+    }
+    recordId
+  }
+}

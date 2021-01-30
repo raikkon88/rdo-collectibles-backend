@@ -7,7 +7,8 @@ const UserQuery = {
 
 const UserMutation = {
   userCreateOne: UserTC.getResolver('createOne'),
-  register: UserTC.getResolver('register')
+  register: UserTC.getResolver('register'),
+  login: UserTC.getResolver('login')
 }
 
 export { UserQuery, UserMutation }

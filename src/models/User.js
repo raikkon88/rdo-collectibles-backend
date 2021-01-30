@@ -50,6 +50,18 @@ UserSchema.index({ createdAt: 1, updatedAt: 1 });
 export const User = mongoose.model('User', UserSchema);
 export const UserTC = composeWithMongoose(User);
 
+UserTC.addResolver({
+  name: 'login',
+  kind: 'mutation',
+  type: UserTC, 
+  args: {username: 'String!', password:'String!'},
+  resolve: async ({source, args, context, info}) => {  
+    console.log(source)
+    console.log(args)
+    console.log(context)
+    console.log(info)
+  }
+})
 
 UserTC.addResolver({
   name: 'register',
